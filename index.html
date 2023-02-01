@@ -11,6 +11,14 @@
 
 	<h1>Změna tříd, události</h1>
 
+	<p onmouseover="ztucneni()" onmouseout="navrat()" class="font">V elipse spí lev</p>
+
+	<button onclick="zmena()" class="tlacitko">Červený po kliknutí</button>
+
+	<button onclick="vetsi()">Větší po kliknutí”</button>
+
+	
+
 	<div class="ctverecek zluty"></div>
 
 	<div class="ctverecek zeleny"></div>
@@ -19,7 +27,15 @@
 
 	<button class="tlacitko">Čudlajs</button>
 
-	<audio src="audio/dingdingdang.mp3" preload="auto"></audio>
+	<audio class="audio" src="audio/dingdingdang.mp3" preload="auto"></audio>
 
+	<button onclick="play()" class="tlacitko">Play</button>
+	<button onclick="pause()" class="tlacitko">Pause</button>
+	<button onclick="reset()" class="tlacitko">Reset</button>
+	<button onclick="volumeOne()" class="tlacitko">Zvuk 0</button>
+	<button onclick="volumeTwo()" class="tlacitko">Zvuk 0.5</button>
+	<button onclick="volumeThree()" class="tlacitko">Zvuk 1</button>
+
+	<script src="main.js"></script>
 </body>
 </html>
