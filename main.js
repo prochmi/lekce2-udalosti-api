@@ -17,7 +17,7 @@ function zmena() {
 }
 
 function vetsi() {
-    font.style.fontSize =  "17px"
+    font.classList.toggle ("font_new")
 }
 
 let audio = document.querySelector(".audio")
