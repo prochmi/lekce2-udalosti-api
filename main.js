@@ -13,11 +13,11 @@ function navrat() {
 let barva = document.querySelector(".red") 
 
 function zmena() {
-    font.classList.add("red")
+    font.classList.toggle("red")
 }
 
 function vetsi() {
-    font.classList.toggle ("font_new")
+    font.classList.add ("font_new")
 }
 
 let audio = document.querySelector(".audio")
